@@ -45,4 +45,19 @@ int main() {
 ```
 
 In this example, we define a struct called `Person` with three members: `name`, `age`, and `height`. We then declare two variables of the `Person` type, `person1` and `person2`, and initialize their members using the dot (.) operator. Finally, we access and print the members of the structs using the dot (.) operator within `printf` statements.
-# My Program
+# My Program Result
+![p12](https://user-images.githubusercontent.com/126184012/234312384-6bcf54ea-5845-4cbe-a6d5-469da90b719d.png)
+# Applications
+Structs can be used in many ways in a C program to group related data together into a single unit. Here are some common applications of structs:
+
+1. Storing data about objects: Structs can be used to represent objects in a program. For example, a struct could be used to store data about a car, such as its make, model, year, and color.
+
+2. Creating linked lists: Structs can be used to create linked lists, where each node in the list is a struct that contains a data element and a pointer to the next node in the list.
+
+3. Passing complex data to functions: Structs can be used to pass complex data to functions. Instead of passing multiple arguments to a function, the function can take a single struct as an argument that contains all the necessary data.
+
+4. Creating user-defined data types: Structs can be used to create user-defined data types that can be used throughout a program. For example, a struct could be used to define a complex number data type that includes both a real and imaginary component.
+
+5. Storing configuration data: Structs can be used to store configuration data for a program. For example, a struct could be used to store the settings for a game, such as the player's name, the game difficulty, and the sound volume.
+
+Overall, structs provide a powerful tool for organizing data in a program and making it more manageable and easier to work with.
